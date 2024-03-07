@@ -82,7 +82,7 @@ function Header() {
               className="w-full h-10 outline-none border-none p-2"
               placeholder="Search"
               name="search"
-              autocomplete="off"
+              autoComplete="off"
               onChange={(e) => {
                 const searchTerm = e.target.value;
                 if (searchTerm.length > 0) {

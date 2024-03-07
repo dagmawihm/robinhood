@@ -21,6 +21,8 @@ To run this project, you will need to add the following environment variables to
 `API_TOKEN=pk_*************************`
 ### Mongo Db  database url in your server folder .env file
 `ATLAS_URI=mongodb+srv://username:password@cluster0.gscmgyv.mongodb.net/`
+### JWT_SECRET key in your server folder .env file
+`JWT_SECRET=abcd`
 ### iexcloud.io API Token in your client folder .env file
 `REACT_APP_API_TOKEN=pk_***************************`
 
@@ -62,6 +64,7 @@ To deploy this project run the following commands.
 ```bash
   ATLAS_URI=mongodb+srv://username:password@***********************
   API_TOKEN=pk_********************
+  JWT_SECRET=abcd
 ```
 #### Step 9. Run the server and client using concurrently:
 ```bash
